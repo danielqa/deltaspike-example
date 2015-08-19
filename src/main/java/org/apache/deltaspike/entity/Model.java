@@ -36,8 +36,4 @@ public class Model<PK extends Serializable> {
     public void setVersion(Integer version) {
         this.version = version;
     }
-
-    public boolean isNew() {
-        return id == null;
-    }
 }
