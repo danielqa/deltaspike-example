@@ -15,9 +15,12 @@
 log/
 target/
 
-#gradle
+# Gradle
 .gradle/
 /classes
 /build
 /out
 /bin
+
+# WebApp
+**/lib
