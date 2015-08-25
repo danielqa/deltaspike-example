@@ -31,7 +31,7 @@ public class EntityManagerCreator {
         }
     }
 
-    public void destroy(@Disposes EntityManager manager) {
+    public void destroyEntityManager(@Disposes EntityManager manager) {
         if (manager.isOpen()) {
             manager.close();
         }

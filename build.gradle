@@ -29,8 +29,11 @@ dependencies {
 
     compile 'javax.servlet:jstl:1.2'
 
-    compile 'org.apache.deltaspike.modules:deltaspike-data-module-api:1.4.2'
-    runtime 'org.apache.deltaspike.modules:deltaspike-data-module-impl:1.4.2'
+    compile 'org.apache.deltaspike.modules:deltaspike-jpa-module-api:1.5.0'
+    compile 'org.apache.deltaspike.modules:deltaspike-data-module-api:1.5.0'
+
+    runtime 'org.apache.deltaspike.modules:deltaspike-jpa-module-impl:1.5.0'
+    runtime 'org.apache.deltaspike.modules:deltaspike-data-module-impl:1.5.0'
 
     provided 'javax.enterprise:cdi-api:1.2'
     provided 'javax.servlet:javax.servlet-api:3.1.0'

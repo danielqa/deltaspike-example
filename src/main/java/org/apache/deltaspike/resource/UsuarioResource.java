@@ -2,11 +2,11 @@ package org.apache.deltaspike.resource;
 
 import com.sun.jersey.api.view.Viewable;
 import org.apache.deltaspike.entity.Usuario;
+import org.apache.deltaspike.jpa.api.transaction.Transactional;
 import org.apache.deltaspike.repository.UsuarioRepository;
 
 import javax.annotation.ManagedBean;
 import javax.inject.Inject;
-import javax.transaction.Transactional;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.HashMap;
